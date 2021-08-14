@@ -1,0 +1,74 @@
+{
+	"name": "AzureSqlTable3",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase3",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "CustomerID",
+				"type": "varchar"
+			},
+			{
+				"name": "OrderID",
+				"type": "varchar"
+			},
+			{
+				"name": "EmployeeID",
+				"type": "varchar"
+			},
+			{
+				"name": "OrderDate",
+				"type": "varchar"
+			},
+			{
+				"name": "RequiredDate",
+				"type": "varchar"
+			},
+			{
+				"name": "ShippedDate",
+				"type": "varchar"
+			},
+			{
+				"name": "ShipVia",
+				"type": "varchar"
+			},
+			{
+				"name": "Freight",
+				"type": "varchar"
+			},
+			{
+				"name": "ShipName",
+				"type": "varchar"
+			},
+			{
+				"name": "ShipAddress",
+				"type": "varchar"
+			},
+			{
+				"name": "ShipCity",
+				"type": "varchar"
+			},
+			{
+				"name": "ShipRegion",
+				"type": "varchar"
+			},
+			{
+				"name": "ShipPostalCode",
+				"type": "varchar"
+			},
+			{
+				"name": "ShipCountry",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Orderstable"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

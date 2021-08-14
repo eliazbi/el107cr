@@ -1,0 +1,13 @@
+{
+	"name": "AzureSqlTable21",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase20",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

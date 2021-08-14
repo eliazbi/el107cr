@@ -1,0 +1,129 @@
+{
+	"name": "DelimitedText2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorageApp",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "Applications.csv",
+				"container": "sourcecon"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "Institution_ID",
+				"type": "String"
+			},
+			{
+				"name": "UNITID",
+				"type": "String"
+			},
+			{
+				"name": "School_ID",
+				"type": "String"
+			},
+			{
+				"name": "GSS_Code",
+				"type": "String"
+			},
+			{
+				"name": "Year",
+				"type": "String"
+			},
+			{
+				"name": "State_Accreditation",
+				"type": "String"
+			},
+			{
+				"name": "Special_Grants",
+				"type": "String"
+			},
+			{
+				"name": "Carnegie_Code",
+				"type": "String"
+			},
+			{
+				"name": "Full_School_Name",
+				"type": "String"
+			},
+			{
+				"name": "School_Name",
+				"type": "String"
+			},
+			{
+				"name": "School_Type_Code",
+				"type": "String"
+			},
+			{
+				"name": "hdg_code",
+				"type": "String"
+			},
+			{
+				"name": "pt_tot_all_races_v",
+				"type": "String"
+			},
+			{
+				"name": "pt_tot_forgn_v",
+				"type": "String"
+			},
+			{
+				"name": "pt_tot_hisp_v",
+				"type": "String"
+			},
+			{
+				"name": "pt_tot_indian_v",
+				"type": "String"
+			},
+			{
+				"name": "pt_tot_asian_v",
+				"type": "String"
+			},
+			{
+				"name": "pt_tot_black_v",
+				"type": "String"
+			},
+			{
+				"name": "pt_tot_pacific_v",
+				"type": "String"
+			},
+			{
+				"name": "pt_tot_white_v",
+				"type": "String"
+			},
+			{
+				"name": "pt_tot_multi_non_hisp_v",
+				"type": "String"
+			},
+			{
+				"name": "Institution_Name",
+				"type": "String"
+			},
+			{
+				"name": "State Code",
+				"type": "String"
+			},
+			{
+				"name": "Target",
+				"type": "String"
+			},
+			{
+				"name": "ApplicationsStaus",
+				"type": "String"
+			},
+			{
+				"name": "Index",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

@@ -1,0 +1,122 @@
+{
+	"name": "AzureSqlTable2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabaseApp",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "Institution_ID",
+				"type": "varchar"
+			},
+			{
+				"name": "UNITID",
+				"type": "varchar"
+			},
+			{
+				"name": "School_ID",
+				"type": "varchar"
+			},
+			{
+				"name": "GSS_Code",
+				"type": "varchar"
+			},
+			{
+				"name": "Year",
+				"type": "varchar"
+			},
+			{
+				"name": "State_Accreditation",
+				"type": "varchar"
+			},
+			{
+				"name": "Special_Grants",
+				"type": "varchar"
+			},
+			{
+				"name": "Carnegie_Code",
+				"type": "varchar"
+			},
+			{
+				"name": "Full_School_Name",
+				"type": "varchar"
+			},
+			{
+				"name": "School_Name",
+				"type": "varchar"
+			},
+			{
+				"name": "School_Type_Code",
+				"type": "varchar"
+			},
+			{
+				"name": "hdg_code",
+				"type": "varchar"
+			},
+			{
+				"name": "pt_tot_all_races_v",
+				"type": "varchar"
+			},
+			{
+				"name": "pt_tot_forgn_v",
+				"type": "varchar"
+			},
+			{
+				"name": "pt_tot_hisp_v",
+				"type": "varchar"
+			},
+			{
+				"name": "pt_tot_indian_v",
+				"type": "varchar"
+			},
+			{
+				"name": "pt_tot_asian_v",
+				"type": "varchar"
+			},
+			{
+				"name": "pt_tot_black_v",
+				"type": "varchar"
+			},
+			{
+				"name": "pt_tot_pacific_v",
+				"type": "varchar"
+			},
+			{
+				"name": "pt_tot_white_v",
+				"type": "varchar"
+			},
+			{
+				"name": "pt_tot_multi_non_hisp_v",
+				"type": "varchar"
+			},
+			{
+				"name": "Institution_Name",
+				"type": "varchar"
+			},
+			{
+				"name": "State Code",
+				"type": "varchar"
+			},
+			{
+				"name": "Target",
+				"type": "varchar"
+			},
+			{
+				"name": "ApplicationsStaus",
+				"type": "varchar"
+			},
+			{
+				"name": "Index",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Application"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
